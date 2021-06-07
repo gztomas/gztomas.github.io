@@ -1,6 +1,6 @@
 import { css, Global } from "@emotion/react";
 import styled from "@emotion/styled";
-import normalize from "normalize.css/normalize.css";
+import "normalize.css";
 import { ReactElement } from "react";
 import { Github, LinkedIn, StackOverflow, Twitter } from "../src/icons";
 
@@ -11,7 +11,6 @@ const IndexPage = (): ReactElement => (
     <Global
       styles={css`
         @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
-        ${normalize}
       `}
     />
     <Splash>
